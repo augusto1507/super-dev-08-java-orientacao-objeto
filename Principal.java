@@ -1,7 +1,10 @@
+import construtores.Executor;
+
+
 public class Principal {
 
     public static void main(String[] args) {
-        fabricanteExecutar executor = new fabricanteExecutar();
+        Executor executor = new Executor();
         executor.executar();
     }
 }
